@@ -1,0 +1,14 @@
+{
+  "name": "simple-server-sidekick-api",
+  "version": "1.0.0",
+  "description": "API Utility for SSS",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "confused_techie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
