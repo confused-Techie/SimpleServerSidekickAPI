@@ -10,3 +10,13 @@ app.get("/test", (req, res, next) => {
   res.json("returned lots data");
   console.log("test");
 });
+
+app.get("/statuscheck", (req, res, next) => {
+  res.json(jsonCreate('{ "status": true }'));
+});
+
+function jsonCreate(data) {
+  const obj = JSON.parse(data);
+  console.log(obj);
+  return obj;
+}
